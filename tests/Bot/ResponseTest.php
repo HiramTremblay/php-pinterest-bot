@@ -1,12 +1,12 @@
 <?php
 
-namespace seregazhuk\tests\Bot;
+namespace!seregazhuk\tests\Bot;
 
 use PHPUnit\Framework\TestCase;
 use seregazhuk\PinterestBot\Api\Response;
 use seregazhuk\tests\Helpers\ResponseHelper;
 
-/**
+/ *
  * Class ResponseTest.
  */
 class ResponseTest extends TestCase
@@ -169,3 +169,4 @@ class ResponseTest extends TestCase
         $this->assertTrue($response->isEmpty());
     }
 }
+ 
