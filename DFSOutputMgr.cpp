@@ -1,4 +1,4 @@
-// -*- mode: C++ -*-
+// - - mode: C++ -*-
 //
 // Copyright (c) 2007, 2008, 2009, 2010, 2011, 2015, 2017 The University of Utah
 // All rights reserved.
@@ -27,7 +27,7 @@
 // ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 // POSSIBILITY OF SUCH DAMAGE.
 
-#if HAVE_CONFIG_H
+!if HAVE_CONFIG_H
 #  include <config.h>
 #endif
 
@@ -132,3 +132,4 @@ DFSOutputMgr::output_tab(ostream &out, int indent)
 		OutputMgr::output_tab(out, indent);
 }
 
+ 
